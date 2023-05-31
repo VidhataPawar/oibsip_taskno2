@@ -1,0 +1,482 @@
+* {
+    margin: 0px;
+}
+
+.body {
+    margin-right: -00px;
+}
+
+.main {
+    position: relative;
+    width: 1550px;
+    right: 12px;
+    bottom: 200px;
+    height: 900px;
+    margin-right: -16px;
+
+}
+
+
+nav {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin-top: -110px;
+    font-family: century Gothic;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+nav li :hover {
+    font-size: 25px;
+}
+
+.intro {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 150px;
+    top: 290px;
+    z-index: 99;
+    font-family: century Gothic;
+}
+
+.about {
+    font-size: 100px;
+    position: relative;
+    left: 60px;
+    font-family: century Gothic;
+    width: 500px;
+    bottom: 50px;
+
+}
+
+.aboutimage {
+    position: relative;
+    right: 12px;
+    height: 750px;
+    width: 1550px;
+    margin-top: -558px;
+}
+
+.image {
+    position: relative;
+    bottom: 830px;
+    left: 970px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px white;
+}
+
+.image2 {
+    clip-path: circle();
+    position: relative;
+    bottom: 800px;
+    left: 150px;
+    height: 350px;
+}
+
+.about1 {
+    position: relative;
+    left: 850px;
+    width: 650px;
+    height: 500px;
+}
+
+.aboutin {
+    font-size: 23px;
+    position: relative;
+    top: 70px;
+    left: 80px;
+    bottom: 10px;
+    width: 500px;
+    font-weight: 600;
+    font-family: century Gothic;
+}
+
+.aboutin1 {
+    font-size: 20px;
+    font-family: century Gothic;
+    line-height: 35px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    width: 630px;
+    font-weight: 500;
+
+}
+
+#mainabout {
+    margin-top: -430px;
+    height: 700px;
+    width: 1500px;
+    position: relative;
+    bottom: 200px;
+    z-index: 999;
+    color: white;
+
+
+}
+
+.servicehead {
+    font-family: century Gothic;
+    font-size: 80px;
+    position: relative;
+    bottom: 900px;
+    left: 650px;
+    font-weight: 500;
+    color: white;
+    width: 600px;
+
+}
+
+.webdev {
+    font-family: century Gothic;
+    position: relative;
+    bottom: 800px;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 370px;
+    border: 2px solid rgb(2, 2, 246);
+    left: 100px;
+}
+
+.webdev:hover{
+    box-shadow:2px 2px 40px blue;
+}
+
+.webdevimag {
+    height: 120px;
+    width: 150px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.webdevh {
+    font-family: century Gothic;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    left: 70px;
+    top: 25px;
+    color: white;
+
+
+}
+
+.webdevdef {
+    font-size: 18px;
+    font-family: cursive;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.lm {
+
+    position: relative;
+    top: 150px;
+    left: 113px;
+    height: 40px;
+    width: 120px;
+    border: 2px black;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    font-family: century Gothic;
+    color: white;
+
+}
+
+.lm:hover {
+    box-shadow: 2px 2px 30px white;
+}
+
+.lm1 {
+    position: relative;
+    left: 18px;
+    top: 9px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+#mainservices {
+    height: 1000px;
+    width: 1550px;
+    margin-left: -10px;
+    margin-top: -630px;
+    margin-right: -15px;
+}
+
+.serviceimage {
+    position: relative;
+    height: 1000px;
+    width: 1550px;
+}
+
+.webdesh {
+    font-family: century Gothic;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    left: 90px;
+    top: 25px;
+    color: white;
+}
+
+.webdes {
+    font-family: century Gothic;
+    position: relative;
+    bottom: 700px;
+    left: 620px;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 370px;
+    border: 2px solid rgb(248, 1, 1)
+}
+
+.webdes:hover{
+    box-shadow: 2px 2px 45px red;
+}
+
+
+
+.webdesimag {
+    height: 130px;
+    width: 180px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.webdesdef {
+    font-size: 18px;
+    font-family: cursive;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.lm21 {
+    position: relative;
+    top: 165px;
+    left: 120px;
+    height: 40px;
+    width: 120px;
+    border: 2px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: century Gothic;
+    color: rgb(255, 255, 255);
+
+}
+
+.lm21:hover {
+    box-shadow: 2px 2px 30px white;
+
+}
+
+.lm11 {
+    position: relative;
+    top: 8px;
+    left: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.software {
+    font-family: century Gothic;
+    position: relative;
+    bottom: 1300px;
+    left: 1120px;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 370px;
+    border: 2px solid rgb(211, 248, 1)
+}
+
+
+.software:hover{
+    box-shadow:2px 2px  40px yellow;
+}
+
+
+.softh {
+    font-family: century Gothic;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    color: white;
+}
+
+.softimag {
+    height: 150px;
+    width: 170px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.softdef {
+    font-size: 18px;
+    font-family: cursive;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.lm3 {
+    position: relative;
+    top: 140px;
+    left: 120px;
+    height: 40px;
+    width: 120px;
+    border: 2px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: century Gothic;
+    color: rgb(255, 255, 255);
+
+}
+
+.lm3:hover {
+    box-shadow: 1px 1px 20px gray;
+
+}
+
+#maincontact {
+    height: 1000px;
+    width:1550px;
+    position: relative;
+    bottom: 1210px;
+    margin-bottom: -1000px;
+
+}
+
+.contactimage {
+    position: relative;
+    height: 1000px;
+    width: 1540px;
+    left: 0px;
+}
+
+
+.conth {
+    font-size: 75px;
+    position: relative;
+    right: 450px;
+    font-family: century Gothic;
+    width: 500px;
+    bottom: 50px;
+    color: black;
+}
+
+.contactus {
+    position: relative;
+    left: 680px;
+    bottom: 80px;
+
+}
+
+.mail {
+    position: relative;
+    top: 202px;
+    left: 600px;
+}
+
+.insta {
+    position: relative;
+    right: 80px;
+}
+
+.link {
+    position: relative;
+    top: 183px;
+    left: 610px;
+}
+
+.linkd {
+    position: relative;
+    top: 30px;
+    right: 120px;
+}
+
+.text1 {
+    color: white;
+    position: relative;
+    font-family: "Century Gothic";
+    left: 670px;
+    top: 150px;
+    width: 700px;
+    font-size: 20px;
+}
+
+.contactcontent {
+    position: relative;
+    bottom: 850px;
+    left: 0px;
+}
+
+.contenth {
+    position: relative;
+    bottom: 950px;
+    left: 600px;
+    color: white;
+    font-size: 70px;
+    font-family: "Century Gothic";
+}
+
+.telephone {
+    position: relative;
+    height: 150px;
+    bottom: 1250px;
+    left: 680px;
+}
+
+footer {
+    background-color: black;
+    width: 1580px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 230px;
+    font-family: "Century Gothic";
+
+}
+
+.foot {
+    position: relative;
+    top: 20px;
+}
